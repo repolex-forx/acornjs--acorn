@@ -1,0 +1,20 @@
+[2026-04-25T04:25:43Z] === ENRICH ITERATION 1 START | repo=acornjs/acorn sha=c108741d ===
+[2026-04-25T04:25:43Z] [iter=1] PHASE START: enrich repo=acornjs/acorn sha=c108741d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c108741d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c108741d0796be08592dc9b1493c740be9ff804a.nq.gz
+[2026-04-25T04:25:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-25T04:25:50Z] [iter=1] AST store loaded triples=1019412 load_secs=6 mem_mb=856 MB
+[2026-04-25T04:25:50Z] [iter=1] Step 2: Finding LSP targets mem_mb=856 MB
+[2026-04-25T04:25:50Z] [iter=1] LSP targets found call_sites=3621 imports=0 extends=0 implements=0 secs=0
+[2026-04-25T04:25:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=856 MB
+[2026-04-25T04:25:55Z] [iter=1] Position index built positions=67569 nodes_with_types=72340 secs=5 mem_mb=856 MB
+[2026-04-25T04:25:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=856 MB already_completed_types=[] already_completed_files=0
+[2026-04-25T04:25:55Z] [iter=1] Resolving target type target_type=call_site count=3621
+[2026-04-25T04:28:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=1 resolved=1 errors=330 current=acorn.js
+[2026-04-25T04:31:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=2 resolved=16 errors=817 current=test/compare/esprima.js
+[2026-04-25T04:36:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=3 resolved=39 errors=1575 current=test/compare/uglifyjs2.js
+[2026-04-25T04:41:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=4 resolved=56 errors=2238 current=test/tests.js
+[2026-04-25T04:44:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=5 resolved=60 errors=2743 current=test/compare/uglifyjs.js
+[2026-04-25T04:48:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=6 resolved=72 errors=3219 current=util/walk.js
+[2026-04-25T04:48:53Z] [iter=1] Target type resolved target_type=call_site resolved=84 errors=3316 secs=1378 mem_mb=856 MB
+[2026-04-25T04:48:58Z] [iter=1] Step 5: Writing final enrichment file triples=97888
+[2026-04-25T04:49:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c108741d0796be08592dc9b1493c740be9ff804a.nq.gz size_kb=1339
+[2026-04-25T04:49:00Z] [iter=1] PHASE END: enrich elapsed_s=1397 elapsed_min=23.3 total_triples=97888
