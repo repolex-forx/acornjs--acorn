@@ -1,0 +1,36 @@
+{
+  "manifest_version": "1.0",
+  "org": "acornjs",
+  "repo": "acorn",
+  "versions": [
+    {
+      "commit": "c108741d0796be08592dc9b1493c740be9ff804a",
+      "parsed_at": "2026-04-25T04:14:03.573026+00:00",
+      "tag": "v0.1",
+      "filetree": "filetree/c108741d0796be08592dc9b1493c740be9ff804a.nq.gz",
+      "blobs": [
+        "blob/f75aa1a521b061a8565eb0dac3b855009b78b798.nq.gz",
+        "blob/41c09018a459404f6856a2f8c463bfb0308593b8.nq.gz",
+        "blob/97a4dd036ed65085c174c4ceb82e0a5f379fabe9.nq.gz",
+        "blob/ff6eb889d80454651e46009d88d8a4095254cc33.nq.gz",
+        "blob/7048e91b5f79e7f55f28f60d237c89176da8abbd.nq.gz",
+        "blob/f01f5d3c5322ffd4672708f5d779ade53abdf09c.nq.gz",
+        "blob/f02305edfb20c8b3cc891b8abaab8793680292ef.nq.gz",
+        "blob/b22fdeb5304020d8da08fbbc6c48b850b7e4c990.nq.gz",
+        "blob/729550cbde53e0967ca4dcbd4551bffc18615dd8.nq.gz",
+        "blob/282b13325f1250a6301bcd640370c980738b5b3e.nq.gz",
+        "blob/492805dc2ea2c3cc6857fc16467d56b814b658c7.nq.gz",
+        "blob/59277d5533e0d68497a0a43ae15ae43b54e5b275.nq.gz",
+        "blob/4c4dab9d03a23bacaa506e1e2241052f61e30745.nq.gz",
+        "blob/5bb27bbf9db1e1d5043ca44015b5d8c6049864a7.nq.gz",
+        "blob/3916e96b2dd2b96c863f9cd8e9709109f67512ed.nq.gz",
+        "blob/04cc7ecb8a689250f255f9ca5ad6363368921e0e.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
